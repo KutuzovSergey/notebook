@@ -1,15 +1,20 @@
 {
   "name": "notebook",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
+    "react-redux": "^9.1.2",
+    "react-scripts": "^5.0.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "typescript": "^5.5.4",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,12 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "author": "",
+  "license": "ISC",
   "browserslist": {
     "production": [
       ">0.2%",
